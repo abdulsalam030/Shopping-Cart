@@ -1,0 +1,146 @@
+.cart-items {
+    margin: 30px auto;
+    width: 80%;
+    /* background-color: rgb(167, 137, 137); */
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+.cart-items-heaader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    /* border-bottom: 2px solid black; */
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cart-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.cart-image {
+    width: 100px;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-right: 10px;
+}
+
+.cart-list {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.cart-name,
+.cart-buttons {
+   width: 35%;
+}
+
+.cart-add,
+.cart-remove {
+    width: 40px;
+    margin-right: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.cart-add{
+    background-color: green;
+   
+}
+
+.cart-remove{
+    background-color: red;
+  
+}
+
+.cart-add:active{
+    transform: translateY(1.1px);
+}
+
+.cart-remove:active{
+    transform: translateY(1.1px);
+}
+
+.cart-total-name {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 1px solid black;
+}
+
+.cart-total {
+    display: flex;
+    padding-left: 45px;
+}
+
+.cart-clearance button {
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    height: 30px;
+    width: 140px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.cart-clearance button:hover {
+    background-color: coral;
+}
+
+.cart-clearance {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.order button {
+    background-color: rgb(79, 158, 79);
+    height: 30px;
+    width: 140px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+
+.order button:hover {
+    background-color: rgb(44, 185, 44);
+}
+
+.order button:active{
+    transform: translateY(1.2px);
+}
+
+
+
