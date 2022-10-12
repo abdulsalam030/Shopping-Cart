@@ -41,7 +41,29 @@ const data = {
         image:
         "https://cdn.thewirecutter.com/wp-content/media/2022/01/nintendo-switch-2048px-1011437-3x2-1.jpg?auto=webp&quality=60&crop=1.91:1&width=1200",
         id: 6,
+      },
+      {
+        name: "SmartWatch",
+        cost: 1000,
+        image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8_USkhzi9FG9xlRZ_XTFoe9ZVSc8w-YNQ0Q&usqp=CAU",
+        id: 7,
+      },
+      {
+        name: "AirPods",
+        cost: 2000,
+        image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUs7FsaBiXdgYtDlR7h7SuB0pblqHf-zPCpg&usqp=CAU",
+        id: 8,
+      },
+      {
+        name: "AirPods Max",
+        cost: 2500,
+        image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1At3x_MEhy6tqzu-gt8utjAfiqo1QmgKpfg&usqp=CAU",
+        id: 9,
       }
+
 
   ],
 };
