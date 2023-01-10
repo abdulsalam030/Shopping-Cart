@@ -2,7 +2,10 @@ import React from "react";
 import "../Cart/Cart.css";
 import Swal from "sweetalert2";
 import "animate.css";
-import "../PaystackIntegration/Paystack";
+import { Link } from "react-router-dom";
+
+
+import Paystack from "../PaystackIntegration/Paystack";
 
 function Cart({ cart, handleAddProduct, handleRemove, clearCart, Pay }) {
   const showAlert = () => {
@@ -62,7 +65,10 @@ function Cart({ cart, handleAddProduct, handleRemove, clearCart, Pay }) {
       </div>
 
       <div className="order">
-        {cart.length === 0 ? "" : <button onClick={Pay}>Place Order</button>}
+      <Link to="/paystack" className="paystack">
+      {cart.length === 0 ? "" : <button>Place Order</button>}
+            </Link>
+        {/* {cart.length === 0 ? "" : <button onClick={showAlert}>Place Order</button>} */}
       </div>
     </div>
   );
