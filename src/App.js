@@ -4,6 +4,7 @@ import data from "./components/Data/Data";
 import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Routing from "./components/Route/Routing";
+import Paystack from "./components/PaystackIntegration/Paystack";
 function App() {
   const [cart, setCart] = useState([]);
   const { products } = data;
@@ -47,6 +48,7 @@ function App() {
       <Router>
         <NavBar cart={cart} />
         <Routing
+          paystack={Paystack}
           products={products}
           cart={cart}
           handleAddProduct={handleAddProduct}
