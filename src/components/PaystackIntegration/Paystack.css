@@ -9,8 +9,9 @@
 .container {
   display: flex;
   flex-direction: row;
-   margin: 6% auto; 
-   margin-right: 25px;
+   /* margin: 6% auto;  */
+   margin-left: 35%;
+   margin-top: 5%;
   width: 635px;
   height: 430px;
   background: white;
