@@ -2,8 +2,9 @@ import React from "react";
 import "../Cart/Cart.css";
 import Swal from "sweetalert2";
 import "animate.css";
+import "../PaystackIntegration/Paystack";
 
-function Cart({ cart, handleAddProduct, handleRemove, clearCart }) {
+function Cart({ cart, handleAddProduct, handleRemove, clearCart, Pay }) {
   const showAlert = () => {
     Swal.fire({
       title: "Order Placed Successfully",
@@ -61,7 +62,7 @@ function Cart({ cart, handleAddProduct, handleRemove, clearCart }) {
       </div>
 
       <div className="order">
-        {cart.length === 0 ? "" : <button onClick={showAlert}>Place Order</button>}
+        {cart.length === 0 ? "" : <button onClick={Pay}>Place Order</button>}
       </div>
     </div>
   );
