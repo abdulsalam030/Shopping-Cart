@@ -1,3 +1,6 @@
+![shop](https://github.com/abdulsalam030/Shopping-Cart/assets/97962493/75823c20-4ffa-4585-a6ff-a14b89cb4af6)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
